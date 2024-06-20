@@ -7,8 +7,8 @@ Sings the class American song, "99 Bottles of Beer on the Wall" in three differe
 
 # import the three different versions using aliases to keep the names shorter
 import for_loop_version as flv
-import while_loop_accumulator_version as wlav
-import while_loop_flag_version as wlfv
+#import while_loop_accumulator_version as wlav
+#import while_loop_flag_version as wlfv
 
 
 def main():
@@ -23,12 +23,12 @@ def main():
     flv.sing(num_bottles)
 
     # run while loop with accumulator version
-    num_bottles = wlav.get_starting_number()
-    wlav.sing(num_bottles)
+    #num_bottles = wlav.get_starting_number()
+    #wlav.sing(num_bottles)
 
     # run while loop with flag version
-    num_bottles = wlfv.get_starting_number()
-    wlfv.sing(num_bottles)
+    #num_bottles = wlfv.get_starting_number()
+    #wlfv.sing(num_bottles)
 
 
 # call main
